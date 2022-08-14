@@ -1,0 +1,65 @@
+
+
+Web technlogies:
+
+	HTML 
+	Css---------------> Bootstracp 
+	JavaScript ---------> 
+					Angaulr . JS			
+	herading 	
+	break 
+	p 
+	form 	
+		text
+		pass
+		enmila
+		file
+		date
+		select 
+		optionb 
+		submit 
+		reset
+		chckbox 
+		radio
+		
+	List : 
+		ol
+			types: 
+				A a I , i  1 
+		ul;
+			trypes 
+				circle , disc . square 
+		
+	table : 
+		table 
+		tr 
+		td
+		th 
+		cellpadding 
+		cellspacing 
+		colspan 
+		rowspan 
+		
+
+
+
+
+
+CSS : 
+	Cascading Stayle Sheet 
+		3 types
+
+				1) Inline 
+				2) Internale / Embaded 
+				3) External 
+
+
+Selectors : 
+		   id 
+		   class 
+		   tag 
+		   univercel 
+		   muutiple tag secotors 
+		   
+	
+	
