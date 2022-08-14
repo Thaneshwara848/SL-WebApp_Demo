@@ -61,5 +61,23 @@ Selectors :
 		   univercel 
 		   muutiple tag secotors 
 		   
-	
-	
+			BOX model 
+			
+	border :
+	Padding  :
+	margin  :
+	width 
+	hight 
+
+	BanckgroudL 
+			image 
+			size 
+			color
+			repet 
+			attachment 
+			position 
+		font style 
+		font family 
+
+
+
