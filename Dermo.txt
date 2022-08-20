@@ -41,8 +41,7 @@ Web technlogies:
 		rowspan 
 		
 
-
-
+	vedeo / Audo
 
 
 CSS : 
@@ -78,6 +77,34 @@ Selectors :
 			position 
 		font style 
 		font family 
+
+
+
+
+Bootstracp :
+	Grid 
+	Button : primary , Success , danger , warnming , 
+	spinner
+	pagination
+	table
+	Glypicons
+	Progressbar
+	model
+	Collaps
+	corosel
+	nav bar 
+
+	: 
+	Front End 
+
+
+		UI Desigenr : HTML , css , Bootstracp  
+		UI Developer   : HTML , css , Bootsertp , JS / A.js 
+		JavaScript :
+
+
+		Dinner break : 
+				8 40 : 9 : 00 
 
 
 
