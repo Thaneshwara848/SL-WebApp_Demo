@@ -4,23 +4,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="CSSDemo.css" rel="stylesheet">
+    <script>
+        function validdatre()
+        {
+            username=document.getElementById('username').value;
+            userpass=document.getElementById('userpass').value;
+            status =false;
+            if(username.length<1)
+            {
+                document.getElementById('nameerr').innerHTML="Please Enter NAME ..!<br>"
+                status=false;
+            }
+            else{
+                document.getElementById('nameerr').innerHTML=""
+                status=true
+            }
+            if(userpass.length<1)
+            {
+                document.getElementById('passerr').innerHTML="Please Enter Password ..!<br>"
+                status=false;
+            }
+            else{
+                document.getElementById('passerr').innerHTML=""
+                status=true;
+            }
+            return status;
+        }
+    </script>
 </head>
 <body>
-    <h1> Hi CSS DEMO PAGE </h1>
-    <h1  style="color: red"> Hi CSS DEMO PAGE </h1>
-    <h1> Hi CSS DEMO PAGE </h1>
-    <h1> Hi CSS DEMO PAGE </h1>
-    <h1> Hi CSS DEMO PAGE </h1>
-    <h1> Hi CSS DEMO PAGE </h1>
-    <h1> Hi CSS DEMO PAGE </h1>
-    <h1> Hi CSS DEMO PAGE </h1>
-    <h1> Hi CSS DEMO PAGE </h1>
-    <h1> Hi CSS DEMO PAGE </h1>
-    <h1> Hi CSS DEMO PAGE </h1>
-    <h1> Hi CSS DEMO PAGE </h1>
-    <h1> Hi CSS DEMO PAGE </h1>
-    <h1> Hi CSS DEMO PAGE </h1>
+    <div style="text-align: center;margin-top: 100px">
+        <h1> Validation Demo </h1>
+      <form onsubmit="return validdatre()">
 
+        Name :<input type="text" id="username"><br>
+        <span id="nameerr" style="color: red"></span>
+        Pass:<input type="text" id="userpass"><br>
+        <span id="passerr" style="color: red"></span>
+        
+        <input type="button" value="CLICK" onclick="validdatre()"> 
+      </form>
+    </div>
 </body>
 </html>

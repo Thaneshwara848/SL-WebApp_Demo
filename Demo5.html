@@ -1,21 +1,61 @@
 <html lang="en">
 <head>
-        <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add()
+        {
+            
+            a=parseInt( document.getElementById('a').value);
+            b=parseInt( document.getElementById('b').value);
+            c= a+b;
+           document.getElementById('sum').value=c;
+            console.log("Hi :"+value)
+        }
+
+        function sub()
+        {
+            
+            a=parseInt( document.getElementById('a').value);
+            b=parseInt( document.getElementById('b').value);
+            c= a - b;
+           document.getElementById('sum').value=c;
+
+        }
+
+        function mul()
+        {
+            
+            a=parseInt( document.getElementById('a').value);
+            b=parseInt( document.getElementById('b').value);
+            c= a*b;
+           document.getElementById('sum').value=c;
+
+        }
+        function div()
+        {
+            
+            a=parseInt( document.getElementById('a').value);
+            b=parseInt( document.getElementById('b').value);
+            c= a/ b;
+           document.getElementById('sum').value=c;
+
+        }
+    </script>
 </head>
 <body bgcolor="yellow">
-  
-    <h1> Image Demo </h1>
-    <img src="C:\Users\THANESH\Downloads/myimg1.jpg"  width="100px"> 
-
-    <a href="Demo4.html">Click</a> Hear to Demo Demo 1 
-
-    <a href="Demo2.html"> 
-         <img src="C:\Users\THANESH\Downloads/myimg1.jpg"  width="100px"> 
-    </a>
-
-    <video controls>
-        <source type="video/mp4" src="C:\Users\THANESH\Downloads/thaneshJavaDemo.mp4">   
-    </video>
-
+    <div style="text-align: center;margin-top: 200px;">
+        Enter A Value : <input type="text"  id="a"><br>
+        Enter B  Value : <input type="text"  id="b"><br>
+        Result : <input type="text" id="sum"><br>
+        <input type="submit" value="ADD" onclick="add()"> 
+        <input type="submit" value="SUB" onclick="sub()"> 
+        <input type="submit" value="MUL" onclick="mul()"> 
+        <input type="submit" value="DIV" onclick="div()"> 
+    
+    </div>
+   
 </body>
 </html>

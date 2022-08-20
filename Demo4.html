@@ -1,52 +1,38 @@
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        // function abc()
+        // {
+            
+        //     a=document.getElementById('a').value;
+        //     b=document.getElementById('b').value;
+        //     c= a+b;
+
+        //     alert(" Total sum :  "+c )
+        // }
+
+        function abc()
+        {
+            
+            a=parseInt( document.getElementById('a').value);
+            b=parseInt( document.getElementById('b').value);
+            c= a+b;
+
+           // alert(" Total sum :  "+c )
+           document.getElementById('sum').value=c;
+
+        }
+    </script>
 </head>
 <body>
-    <h1> Table Demo </h1>
+    Enter A Value : <input type="text"  id="a"><br>
+    Enter B  Value : <input type="text"  id="b"><br>
+    Result : <input type="text" id="sum"><br>
+    <input type="submit" value="ADD" onclick="abc()"> 
 
-    <table border="1" cellspacing="10" cellpadding="10">
-        <tr>
-            <th>ID </th>
-            <th colspan="2">Full Name</th>
-           
-            <th> Age </th>
-            <th> Salary </th>
-            <th> Desig </th>
-        </tr>
-        <tr>
-            <td>100</td>
-            <td>Thanesh</td>
-            <th>KUMAR</th>
-            <td>26</td>
-            <td>80000</td>
-            <td>Trainer</td>
-        </tr>
-        <tr>
-            <td>200</td>
-            <td>Suman</td>
-            <th>Raj</th>
-            <td>29</td>
-            <td>70000</td>
-            <td>Developer</td>
-        </tr>
-        <tr>
-            <td>300</td>
-            <td>Rajesh</td>
-            <th>KUMAR</th>
-            <td>49</td>
-            <td>90000</td>
-            <td rowspan="2">Tester</td>
-        </tr>
-        <tr>
-            <td>500</td>
-            <td>Prakash</td>
-            <th>Ratod</th>
-            <td>49</td>
-            <td>80000</td>
-            <!-- <td>Tester</td> -->
-        </tr>
-
-    </table>
 </body>
 </html>
