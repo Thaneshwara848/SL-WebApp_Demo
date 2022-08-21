@@ -1,0 +1,79 @@
+UI 
+    User Interface : 
+
+
+Frond End: 
+    Desing  : HTMl , CSS , Bootstracp 
+    Devlpment  html.css,BS,Js ==== > Anngulr 
+
+                    Angualr JS 
+                    React JS 
+                    View JS 
+                    NOde ,js 
+                    Express JS 
+                    backbnoon JS 
+                    venbnlailla JS 
+                    next JS 
+
+        javaScript : 
+                    validation: 
+                    Dynimic Prog Lang 
+
+    
+        JavaScritp                      java 
+
+    1)  only inertepert                 Compile -- run 
+        directly run                    compile and run 
+
+    2) Clinet   + Server                          Server side 
+    3)fast                              
+    4) Not strict                       Strict 
+
+    
+     
+     COntrol Statamt 
+        if 
+        if else
+        if else ;adddrr 
+        switch
+
+    Looping 
+        for 
+        while 
+        do while
+
+    Jupp 
+        continue 
+        break 
+        return 
+
+
+Operatior : 
+    Uniry :
+            a=10 ;
+            a++
+            a--
+            --a;
+            ++a;
+
+    Binary 
+            a=10 
+            b=10 
+            a<= b , b> =a , b==a , b<a , a> b 
+            compiraison 
+            artmentic
+            login 
+                    && 
+                    // 
+                    !
+    Tirant 
+            a<b : a ? b 
+            
+
+
+
+
+
+
+
+

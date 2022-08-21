@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // function add(value)
+        // {
+            
+        //     a=parseInt( document.getElementById('a').value);
+        //     b=parseInt( document.getElementById('b').value);
+        //     c= a+b;
+        //    document.getElementById('sum').value=c;
+        //     console.log("Hi :"+value)
+        // }
+
+        // function sub(value)
+        // {
+            
+        //     a=parseInt( document.getElementById('a').value);
+        //     b=parseInt( document.getElementById('b').value);
+        //     c= a - b;
+        //    document.getElementById('sum').value=c;
+        //    console.log("Hi :"+value)
+
+        // }
+
+        // function mul(value)
+        // {
+            
+        //     a=parseInt( document.getElementById('a').value);
+        //     b=parseInt( document.getElementById('b').value);
+        //     c= a*b;
+        //    document.getElementById('sum').value=c;
+        //    console.log("Hi :"+value)
+
+        // }
+        // function div(value)
+        // {
+            
+        //     a=parseInt( document.getElementById('a').value);
+        //     b=parseInt( document.getElementById('b').value);
+        //     c= a/ b;
+        //    document.getElementById('sum').value=c;
+        //    console.log("Hi :"+value)
+
+        // }
+        function CAL(value)
+        {
+            
+            a=parseInt( document.getElementById('a').value);
+            b=parseInt( document.getElementById('b').value);
+            if(value=="ADD")
+            {
+                c= a+b;
+                 document.getElementById('sum').value=c;
+            }
+            else if(value=="SUB")
+            {
+                c= a- b;
+                 document.getElementById('sum').value=c;
+            }
+            else if(value=="MUL")
+            {
+                c= a* b;
+                 document.getElementById('sum').value=c;   
+            }        
+            else if(value=="DIV")
+            {
+                c= a / b;
+                 document.getElementById('sum').value=c;     
+            }    
+        }
+    </script>
+</head>
+<body bgcolor="yellow">
+    <div style="text-align: center;margin-top: 200px;">
+        Enter A Value : <input type="text"  id="a"><br>
+        Enter B  Value : <input type="text"  id="b"><br>
+        Result : <input type="text" id="sum"><br>
+        <!-- <input type="submit" value="ADD" onclick="add(value)"> 
+        <input type="submit" value="SUB" onclick="sub(value)"> 
+        <input type="submit" value="MUL" onclick="mul(value)"> 
+        <input type="submit" value="DIV" onclick="div(value)"> 
+     -->
+
+     <input type="submit" value="ADD" onclick="CAL(value)"> 
+     <input type="submit" value="SUB" onclick="CAL(value)"> 
+     <input type="submit" value="MUL" onclick="CAL(value)"> 
+     <input type="submit" value="DIV" onclick="CAL(value)"> 
+ 
+    </div>
+   
+</body>
+</html>

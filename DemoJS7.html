@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>\
+    <script>
+         function add()
+        {
+            
+            fn= document.getElementById('a').value;
+            ln=document.getElementById('b').value;
+            fullname= fn + "  "+ln ;
+           document.getElementById('fullname').value=fullname;
+            console.log("Hi :"+value)
+        }
+        function xyz(){
+            document.getElementById('a').style.backgroundColor="red";
+        }
+    </script>
+</head>
+<body bgcolor="yellow">
+    <marquee onmouseover="stop()" onmouseout="start()"><h1 style="color: red">HI Welcome to java Script </h1></marquee>
+    <div style="text-align: center;margin-top: 100px">
+         <h1> Hi Simple Demo </h1>
+         First name  : <input type="text"  id="a" onblur="xyz()"><br>
+        Last name  : <input type="text"  id="b"><br>
+         FUll Name  : <input type="text" id="fullname" onfocus="add()"><br>
+         <input type="submit" value="ADD" onclick="add()"> 
+
+         
+    </div>
+
+</body>
+</html>

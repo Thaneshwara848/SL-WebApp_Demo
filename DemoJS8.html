@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validdatre()
+        {
+            username=document.getElementById('username').value;
+            // alert("My name is : "+username)
+            // console.log("My Name is : "+username)
+            if(username.length==null || username.length==0 )
+            {
+                //console.log("Name must be required .....!")
+                document.getElementById('errmsg').innerHTML="Name Must be Requried ...!<br>";
+            }
+            else if (username.length>=0 && username.length<=3 )
+            {
+               // console.log("name mnust be 3 char ....!")
+               document.getElementById('errmsg').innerHTML="Name Must be Min 3 char  ...!<br>";
+            }
+            else{
+                // console.log("name is All okay ")
+                document.getElementById('errmsg').innerHTML=" ";
+                document.getElementById('successmsg').innerHTML="Name is Fine<br> "
+            }
+        }
+    </script>
+</head>
+<body>
+    <div style="text-align: center;margin-top: 100px">
+        <h1> Validation Demo </h1>
+        Name :<br>
+
+        <input type="text" id="username"><br>
+        <span id="errmsg" style="color: red"></span>
+        <span id="successmsg" style="color: green"></span>
+        <input type="submit" value="CLICK" onclick="validdatre()"> 
+    </div>
+</body>
+</html>
