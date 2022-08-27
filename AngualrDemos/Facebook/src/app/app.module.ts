@@ -10,6 +10,7 @@ import { EduComponent } from './loan/edu/edu.component';
 import { HomeComponent } from './loan/home/home.component';
 import { PersComponent } from './loan/pers/pers.component';
 import { CarComponent } from './loan/car/car.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CarComponent } from './loan/car/car.component';
     EduComponent,
     HomeComponent,
     PersComponent,
-    CarComponent
+    CarComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
