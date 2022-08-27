@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ControlContainer } from '@angular/forms';
 
 @Component({
   selector: 'app-databind',
@@ -37,4 +38,16 @@ export class DatabindComponent implements OnInit {
   }
 
   mydec=false
+
+emi=0
+total=0
+amount=0
+  cal(princeple:any,t:any,r:any){
+
+   this.amount=(princeple*t*r)/100;
+   this.total= princeple + this.emi;
+   this.emi=this.total/12 ;
+
+
+  }
 }

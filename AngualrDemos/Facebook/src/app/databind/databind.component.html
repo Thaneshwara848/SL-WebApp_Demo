@@ -11,7 +11,7 @@
         <button (click)="abcd()" [disabled]="adddesca">Add </button>
         <button (click)="xyz()" [disabled]="adddescr">Remove </button>
 
-
+     
         <button [disabled]="mydec"> Just to check</button>
       
 </div>
@@ -37,3 +37,19 @@
        <mark> {{company}}</mark> is the popular online Bootcamp & online courses learning platform that offers theSimplilearn is the popular online Bootcamp & online courses learning platform that offers the
        <mark> {{company}}</mark>  is the popular online Bootcamp & online courses learning platform that offers the
        <mark> {{company}}</mark>  is the popular online Bootcamp & online courses learning platform that offers the -->
+        <br>
+
+<div style="text-align: center">
+    Principle  : <input type="text" name="princile" #princile><br>
+    TIme        : <input type="text" name="time" #time ><br>
+    Rate of Int : <input type="text" name="roi" #roi><br>
+
+    TOtal :<input type="text" name="total" value={{total}}><br>
+    EMI :<input type="text" name="emi" value={{emi}}><br>
+
+
+    <input type="submit" value="CLCULATE" (click)="cal(princile.value,time.value,roi.value)">
+
+</div>
+
+
