@@ -12,6 +12,7 @@ import { PersComponent } from './loan/pers/pers.component';
 import { CarComponent } from './loan/car/car.component';
 import { ErrorComponent } from './error/error.component';
 import { DatabindComponent } from './databind/databind.component';
+import { DirectiveDemoComponent } from './directive-demo/directive-demo.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DatabindComponent } from './databind/databind.component';
     PersComponent,
     CarComponent,
     ErrorComponent,
-    DatabindComponent
+    DatabindComponent,
+    DirectiveDemoComponent
   ],
   imports: [
     BrowserModule,
