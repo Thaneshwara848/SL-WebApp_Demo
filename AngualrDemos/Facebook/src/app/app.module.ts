@@ -17,6 +17,9 @@ import { AComponent } from './a/a.component';
 import { BComponent } from './b/b.component';
 import { CComponent } from './c/c.component';
 import { ServiceDemoComponent } from './service-demo/service-demo.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
+import { SqrPipe } from './sqr.pipe';
+import { CubePipe } from './cube.pipe';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { ServiceDemoComponent } from './service-demo/service-demo.component';
     AComponent,
     BComponent,
     CComponent,
-    ServiceDemoComponent
+    ServiceDemoComponent,
+    PipedemoComponent,
+    SqrPipe,
+    CubePipe
   ],
   imports: [
     BrowserModule,

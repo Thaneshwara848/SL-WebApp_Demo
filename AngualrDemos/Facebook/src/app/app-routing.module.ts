@@ -7,6 +7,7 @@ import { DirectiveDemoComponent } from './directive-demo/directive-demo.componen
 import { ErrorComponent } from './error/error.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { RegisterComponent } from './register/register.component';
 import { ServiceDemoComponent } from './service-demo/service-demo.component';
 
@@ -29,6 +30,9 @@ const routes: Routes = [
   },
   {
     path:'serv',component:ServiceDemoComponent
+  },
+  {
+    path:'pipe',component:PipedemoComponent
   }
 ];
 
