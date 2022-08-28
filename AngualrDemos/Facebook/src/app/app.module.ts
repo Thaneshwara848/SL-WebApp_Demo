@@ -13,6 +13,10 @@ import { CarComponent } from './loan/car/car.component';
 import { ErrorComponent } from './error/error.component';
 import { DatabindComponent } from './databind/databind.component';
 import { DirectiveDemoComponent } from './directive-demo/directive-demo.component';
+import { AComponent } from './a/a.component';
+import { BComponent } from './b/b.component';
+import { CComponent } from './c/c.component';
+import { ServiceDemoComponent } from './service-demo/service-demo.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { DirectiveDemoComponent } from './directive-demo/directive-demo.componen
     CarComponent,
     ErrorComponent,
     DatabindComponent,
-    DirectiveDemoComponent
+    DirectiveDemoComponent,
+    AComponent,
+    BComponent,
+    CComponent,
+    ServiceDemoComponent
   ],
   imports: [
     BrowserModule,
