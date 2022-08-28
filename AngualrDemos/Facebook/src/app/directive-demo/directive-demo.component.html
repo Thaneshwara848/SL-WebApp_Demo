@@ -1,32 +1,24 @@
-<div class="abc">
-    <h1>Hi Directive Demo </h1> 
-</div>
 
-<div>
-    <h1> Hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</h1>
-</div>
-
-
+<!-- 
 <div *ngIf="myvar">
    <h1>Heloooooooooooo</h1>
 </div>
-
 
 <div *ngIf="true">
     <h1> Byeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</h1>
 </div>
 <div>
     <ul *ngFor="let mynames  of players">
-        <li >{{ mynames  }} </li>
+        <li  >{{ mynames  }} </li>
     </ul>
 </div>
-<hr>
+<hr> -->
 <div>
     <!-- <ul *ngFor="let movi  of movies">
         <li>{{movi.title}} - </li>
     </ul> -->
 
-    <table class='table'>
+    <!-- <table class='table'>
         <thead>
             <tr>
                 <th>Title</th>
@@ -43,5 +35,27 @@
                 <td>{{movie.releaseDate}}</td>
             </tr>
         </tbody>
-    </table>
+    </table> -->
+</div>
+
+
+<!-- 
+    1) Strutural Directive 
+
+            *ngIF
+            *ngFor
+            *ng Switch
+    2) Attrubite Directive 
+
+ -->
+
+Name : <input type="text" name="username" #username>
+
+<input type="submit" (click)="addPlayers(username.value)">
+
+
+ <div>
+    <ul *ngFor="let mynames  of players">
+        <li >{{ mynames  }} </li>
+    </ul>
 </div>

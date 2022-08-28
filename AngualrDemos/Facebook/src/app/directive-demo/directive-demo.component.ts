@@ -7,19 +7,38 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectiveDemoComponent implements OnInit {
 
-  players:any =["Thanesh","Suresh","Pravin","Bindu ","Anguasj "];
+  players:any =["Thanesh","Suresh","Pravin","Bindu ","Anush"];
 
-  constructor() {
-
+  addPlayers(username:any)
+  {
+    this.players.push(username);
 
   }
 
-  ngOnInit(): void {
-  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  constructor() {}
+
+  ngOnInit(): void {}
 myvar=true  
-
-
 movies =[
   {
       title:'Zootopia',
