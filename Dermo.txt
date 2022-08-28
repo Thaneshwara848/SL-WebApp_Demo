@@ -1,5 +1,6 @@
 
 
+
 Web technlogies:
 
 	HTML 
@@ -103,8 +104,74 @@ Bootstracp :
 		JavaScript :
 
 
-		Dinner break : 
-				8 40 : 9 : 00 
+
+		HTML 
+		CSS
+		Bootstracp 
+		javascript 
+		TypeScript 
+
+		Anvgualr 
+					component: 
+							set of 4 file 
+								.html 
+								.css
+								.spec
+								.ts
+
+					Routing :
+							Navagation from one comp to other comp 
+							1) RouterLink
+							2) <router-outlet>
+							3) confogue the path in routing file 
+
+					Data Binding :
+							HTML to ts or ts to html 
+
+							Event  :  ()  pass the data from HTML  to TS 
+							property  : [ ]  bind the data from TS to HTML , which is only of attrubite / property 
+							Intrepolation  :  {{  }}  binde the data from TS to HTML , we can bind var , method , etc 
+
+
+					Directive  :
+							based on onr web page , we can dispay the data . ..how ? 
+						Strutural 
+							ngIF,
+							ngFOr 
+							ng Switch
+						Attrubute Directive
+
+							NgClass / ngStyle 
+
+					Services:
+						Share the info from one comp to Other Comp
+							ng generate service Serv_name
+							
+							private var: serviceName 
+
+					PIPE : 
+							Transorm the data to the requried formmate 
+							number
+							String 
+							Array
+							JSON 
+							date 
+									constum pipe : 
+
+
+						ng g c c_n
+						ng g s s_n
+						ng g pipe p_n
+						
+
+			life cyle hook 
+			Https
+			forms 
+
+					
+			
+						
+
 
 
 
