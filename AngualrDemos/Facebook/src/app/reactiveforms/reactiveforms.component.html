@@ -1,0 +1,24 @@
+<h1> REACTIVE DRIVEN FROMS </h1>
+
+<form [formGroup]="student" (ngSubmit)="myInfo(student.value)">
+    <H3>
+        First Name : <input type="text" name="fname" formControlName="firstname"><br>
+        last Name :<input type="text" name="lname" formControlName="lastname"><br>
+        Age : <input type="number" name="age" formControlName="age"><br>
+
+        Technogies :
+            <select name="course" formControlName="course">
+                <option value="java">Core java</option>
+                <option value="python">Core python</option>
+                <option value="web">Core Web</option>
+                <option value="angualr">Angualr</option>
+                <option value="nodejs">Node JS </option>
+            </select>
+
+                <br><br>
+
+            <input type="submit" value="REGISTER " [disabled]="student.invalid">  &nbsp; 
+            <input type="reset" value=" RESET">
+
+    </H3>
+</form>
