@@ -20,6 +20,8 @@ import { ServiceDemoComponent } from './service-demo/service-demo.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { SqrPipe } from './sqr.pipe';
 import { CubePipe } from './cube.pipe';
+import { FormsdemoComponent } from './formsdemo/formsdemo.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -40,11 +42,13 @@ import { CubePipe } from './cube.pipe';
     ServiceDemoComponent,
     PipedemoComponent,
     SqrPipe,
-    CubePipe
+    CubePipe,
+    FormsdemoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

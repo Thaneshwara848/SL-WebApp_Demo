@@ -1,0 +1,59 @@
+<div style="text-align: center">
+    <h1>Hi Froms Demo </h1>
+    
+    <form #userForm="ngForm" (ngSubmit)="myInfo(userForm.value)">
+
+        <div class="form-inline">
+            <label>User Name  <span style="color: red" *ngIf="username.invalid">* : </span> </label>
+            <input type="text" name="username" class="form-control" required ngModel #username="ngModel"> <br>
+            <span *ngIf="username.invalid && username.touched" class="text text-danger">USER name is Requried ....!</span>
+        </div>
+        
+        
+        <div class="form-inline">
+            <label>User Pass   <span style="color: red" *ngIf="userpass.invalid">*</span>: </label>
+            <input type="text" name="userpass" class="form-control" required ngModel #userpass="ngModel"><br>
+            <span *ngIf="userpass.invalid && userpass.touched" style="color:red">USER pass is Requried ....!</span>
+        </div>
+    
+        <input type="submit" value="CLICK" class="btn btn-success">
+    </form>
+</div>
+<table>
+    <tr>
+        <th>User name : </th>
+        <th><input type="text">
+        </th>
+
+        
+    </tr>
+    <tr>
+        <th>User name : </th>
+        <th><input type="text">
+        </th>
+    </tr>
+    <tr>
+        <th></th>
+        <th><input type="submit">
+        </th>
+
+        
+    </tr>
+</table>
+
+
+
+
+
+
+<!-- 
+    ng-untouched and ng-Touched 
+     ng-invalid and ng-valid
+     ng-pristin ng Dirty 
+
+     Forms : 
+            2 trypes pf forms 
+                1) templet driven from  ; validation will happens at  ? html 
+                2) reactive Driven From  : validation will happend at TS :
+
+ -->
