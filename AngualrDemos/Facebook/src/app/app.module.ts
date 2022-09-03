@@ -24,6 +24,10 @@ import { FormsdemoComponent } from './formsdemo/formsdemo.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveformsComponent } from './reactiveforms/reactiveforms.component';
 import {  ReactiveFormsModule } from '@angular/forms';
+import { ChatappComponent } from './chatapp/chatapp.component';
+import { RamaComponent } from './rama/rama.component';
+import { SeethaComponent } from './seetha/seetha.component';
+import { RavavaComponent } from './ravava/ravava.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +50,11 @@ import {  ReactiveFormsModule } from '@angular/forms';
     SqrPipe,
     CubePipe,
     FormsdemoComponent,
-    ReactiveformsComponent
+    ReactiveformsComponent,
+    ChatappComponent,
+    RamaComponent,
+    SeethaComponent,
+    RavavaComponent
   ],
   imports: [
     BrowserModule,

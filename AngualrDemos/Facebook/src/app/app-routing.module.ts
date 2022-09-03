@@ -2,6 +2,7 @@ import { registerLocaleData } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { ChatappComponent } from './chatapp/chatapp.component';
 import { DatabindComponent } from './databind/databind.component';
 import { DirectiveDemoComponent } from './directive-demo/directive-demo.component';
 import { ErrorComponent } from './error/error.component';
@@ -14,6 +15,9 @@ import { ServiceDemoComponent } from './service-demo/service-demo.component';
 
 
 const routes: Routes = [
+  {
+    path:'chat',component:ChatappComponent
+  },
   {
     path:'form',component:FormsdemoComponent
   },
